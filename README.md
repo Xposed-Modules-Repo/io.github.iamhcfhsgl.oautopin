@@ -56,8 +56,3 @@ ColorOS 开机自动解锁 SIM 卡 PIN
 改动细节、验证方式与构建注意点见 [MIGRATION.md](MIGRATION.md)。
 云端构建与发行版流水线见 [.github/workflows](.github/workflows)。
 
-> 升级提示：`16.2.0` 起包名由上游的 `io.github.achyuki.oautopin` 改为
-> `io.github.iamhcfhsgl.oautopin`，因此**这是一次全新安装**（签名与包名都不同，
-> 旧版无法覆盖升级，请先卸载旧版）。原应用数据目录下的
-> `shared_prefs/pin.xml`（旧版遗留的 others 可读文件）会随卸载一并清除；
-> 新版不再创建此类文件，请在设置页重新保存一次 PIN。
